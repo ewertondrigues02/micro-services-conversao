@@ -1,0 +1,36 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+resilience4j:
+  retry:
+    instances:
+      default:
+        max-attempts: 5
+server:
+  port: 8100
+spring:
+  application:
+    name: book-service     
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:postgresql://localhost:5432/book_service?useTimezone=true&serverTimezone=UTC
+    username: postgres
+    password: ew241481
+  jackson:
+    default-property-inclusion: NON_NULL
+    serialization:
+      fail-on-empty-beans: false
+flyway:
+  url: jdbc:postgresql://localhost:5432/book_service
+  schemas: book_service
+  username: postgres
+  password: ew241481
+springdoc:
+  api-docs:
+    path: book-service/v3/api-docs

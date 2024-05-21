@@ -1,0 +1,37 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+    fetch-registry: true
+    register-with-eureka: true
+
+spring:
+  application:
+    name: cambio-service
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  datasource:
+    url: jdbc:postgresql://localhost:5432/cambio_service?useTimezone=true&serverTimezone=UTC
+    username: postgres
+    password: ew241481
+  flyway:
+    url: jdbc:postgresql://localhost:5432/cambio_service
+    schemas: cambio_service
+    user: postgres
+    password: ew241481
+springdoc:
+  api-docs:
+    path: cambio-service/v3/api-docs
+
+server:
+  port: 8000
+
+
+
+
+  
+  
