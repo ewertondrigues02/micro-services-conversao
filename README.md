@@ -1,3 +1,4 @@
+
 # Microserviço de Conversão de Moedas
 Este projeto demonstra a implementação de um sistema de microserviços para conversão de moedas, utilizando uma série de tecnologias modernas e robustas. O sistema é projetado para ser escalável, resiliente e fácil de manter.
 
@@ -21,5 +22,9 @@ A arquitetura do sistema é composta pelos seguintes componentes:
 **API Gateway:** Gerencia todas as solicitações de entrada e direciona para os microserviços apropriados.  
 **Resilience4j:** Implementa padrões de resiliência como Circuit Breaker, Rate Limiter e Retry.  
 **Swagger OpenAPI:** Documentação interativa das APIs dos microserviços.  
+
+--- 
+
+![diagrama-micro-services](https://github.com/ewertondrigues02/micro-services-conversao/assets/106437473/b63b7b37-a60d-46b3-bbd6-a5585df7e9c6)
 
   
