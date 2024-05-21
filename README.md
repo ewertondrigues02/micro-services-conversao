@@ -15,9 +15,11 @@ Este projeto demonstra a implementação de um sistema de microserviços para co
 ## Arquitetura
 A arquitetura do sistema é composta pelos seguintes componentes:
 
-**Eureka Server:** Serviço de registro e descoberta de microserviços.
-**Currency Exchange Service:** Fornece as taxas de câmbio entre diferentes moedas.
-**Currency Conversion Service:** Converte valores entre diferentes moedas usando as taxas fornecidas pelo Currency Exchange Service.
-**API Gateway:** Gerencia todas as solicitações de entrada e direciona para os microserviços apropriados.
-**Resilience4j:** Implementa padrões de resiliência como Circuit Breaker, Rate Limiter e Retry.
-**Swagger OpenAPI:** Documentação interativa das APIs dos microserviços.
+**Eureka Server:** Serviço de registro e descoberta de microserviços.  
+**Currency Exchange Service:** Fornece as taxas de câmbio entre diferentes moedas.  
+**Currency Conversion Service:** Converte valores entre diferentes moedas usando as taxas fornecidas pelo Currency Exchange Service.  
+**API Gateway:** Gerencia todas as solicitações de entrada e direciona para os microserviços apropriados.  
+**Resilience4j:** Implementa padrões de resiliência como Circuit Breaker, Rate Limiter e Retry.  
+**Swagger OpenAPI:** Documentação interativa das APIs dos microserviços.  
+
+  
