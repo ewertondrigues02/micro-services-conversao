@@ -3,15 +3,15 @@
 Este projeto demonstra a implementação de um sistema de microserviços para conversão de moedas, utilizando uma série de tecnologias modernas e robustas. O sistema é projetado para ser escalável, resiliente e fácil de manter.
 
 ## Tecnologias Utilizadas
-* Java
-* Spring Boot
-* Spring Cloud
-* Eureka
-* Feign
-* Spring Boot Actuator
-* Spring Cloud Gateway
-* Resilience4j
-* Swagger OpenAPI
+* Java.
+* Spring Boot.
+* Spring Cloud.
+* Eureka.
+* Feign.
+* Spring Boot Actuator.
+* Spring Cloud Gateway.
+* Resilience4j.
+* Swagger OpenAPI.
   
 ## Arquitetura
 A arquitetura do sistema é composta pelos seguintes componentes:
